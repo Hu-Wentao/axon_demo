@@ -33,7 +33,8 @@ dependencies {
 // https://mvnrepository.com/artifact/org.axonframework/axon
 //    implementation("org.axonframework:axon:3.4.3")
 // https://mvnrepository.com/artifact/org.axonframework/axon-spring-boot-autoconfigure
-    implementation("org.axonframework:axon-spring-boot-autoconfigure:3.4.3")
+    implementation("org.axonframework:axon-spring-boot-autoconfigure:4.5.4")
+//    implementation("org.axonframework:axon-spring-boot-starter:4.5.4")
 
     implementation("org.springframework.boot:spring-boot-starter-data-mongodb:2.5.6")
 

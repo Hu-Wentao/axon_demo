@@ -1,6 +1,6 @@
 package com.example.axon_demo.application
 
-import org.axonframework.commandhandling.TargetAggregateIdentifier
+import org.axonframework.modelling.command.TargetAggregateIdentifier
 import org.bson.types.ObjectId
 
 /**

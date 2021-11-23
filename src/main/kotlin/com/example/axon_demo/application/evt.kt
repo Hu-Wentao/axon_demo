@@ -7,6 +7,6 @@ import org.bson.types.ObjectId
  */
 
 // 已发送
-data class IssuedEvt(    val id : ObjectId,val amount: Int)
+data class IssuedEvt(val id: ObjectId, val amount: Int)
 
 data class RedeemedEvt(val id: ObjectId, val amount: Int)

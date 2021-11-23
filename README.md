@@ -37,6 +37,9 @@ implementation("org.axonframework:axon-spring-boot-autoconfigure:3.4.3")
 constructor()
 无参构造被用于 Axon框架的`事件溯源` 和 JPA中(如果有的话),
 
+###3.2b 基于Axon4
+使用 `@CreationPolicy` 注解, 替代构造函数, 这样无需手动创建`constructor()`
+
 ### 3.3 方法 添加Cmd构造
 注意为构造添加 `@CommandHandler` 注解, 表示用于处理XxxCmd
 
