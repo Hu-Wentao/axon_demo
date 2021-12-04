@@ -34,7 +34,7 @@ class GiftCard {
         AggregateLifecycle.apply(IssuedEvt(cmd.id, cmd.amount))
     }
 
-//    // ##3.2 无参构造
+//    // ##3.2a 无参构造
 //    constructor()
 //
 //    // ##3.3 构造-命令处理器
