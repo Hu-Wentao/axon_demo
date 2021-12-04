@@ -8,7 +8,7 @@ import org.bson.types.ObjectId
  */
 
 // 发送
-data class IssueCmd(val id: ObjectId, val amount: Int)
+data class IssueCmd(@TargetAggregateIdentifier val id: ObjectId, val amount: Int)
 
 // 回收
 data class RedeemCmd(@TargetAggregateIdentifier val id: ObjectId, val amount: Int)
