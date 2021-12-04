@@ -34,17 +34,18 @@ dependencies {
 //    implementation("org.axonframework:axon:3.4.3")
 // https://mvnrepository.com/artifact/org.axonframework/axon-spring-boot-autoconfigure
     implementation("org.axonframework:axon-spring-boot-autoconfigure:4.5.4")
+    implementation("org.axonframework.extensions.kotlin:axon-kotlin-parent:0.1.0")
 //    implementation("org.axonframework:axon-spring-boot-starter:4.5.4")
 
-    implementation("org.springframework.boot:spring-boot-starter-data-mongodb:2.5.6")
+    implementation("org.springframework.boot:spring-boot-starter-data-mongodb:2.6.1")
 
-    implementation("org.springframework.boot:spring-boot-starter:2.5.6")
+    implementation("org.springframework.boot:spring-boot-starter:2.6.1")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("org.axonframework.extensions.kotlin:axon-kotlin-parent:0.1.0")
-    developmentOnly("org.springframework.boot:spring-boot-devtools")
-    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("org.springframework.boot:spring-boot-starter-web:2.6.1")
+    developmentOnly("org.springframework.boot:spring-boot-devtools:2.6.1")
+    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor:2.6.1")
+    testImplementation("org.springframework.boot:spring-boot-starter-test:2.6.1")
 }
 
 tasks.withType<KotlinCompile> {
